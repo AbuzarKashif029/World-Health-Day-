@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+         <style>
+           a:visited{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: #f9ea1b;
+}
+div{
+  left-margin: 100px;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("https://th.bing.com/th/id/R.cdd4d5737978e5694e724ac4f760a2cf?rik=6f4BQxNe9jhvSw&riu=http%3a%2f%2fwww.nationalhealthexecutive.com%2fwrite%2fMediaUploads%2fi_c.sturti.jpg&ehk=ef6eQQx8%2ffppJlFL1w4m4gL%2bBUTmUlpYQqr2gxAkan4%3d&risl=&pid=ImgRaw&r=0");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<div class="bg-img">
+  <nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+         <div class="navbar-header">
+		<a class="navbar-brand"><font color="white"><b>NHS</b></font></a>
+    <ul class="nav navbar-nav">
+    <li><a href="C:\Users\abuza\.vscode\World Health Day task.html"><font color="#edfffe"><u><pre>Live Well     </pre></u></font></a></li>
+    <li><a href="C:\Users\abuza\.vscode\Mental Health (world health day).html"><font color="#edfffe"><pre>Mental health        </pre></font></a></li>
+<font color="black"> <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics" title="Type in a name">
+ <button type="submit" class="btn btn-default">Search</button></button></font>
+ <script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+<ul id="myUL">
+  <a href="C:\Users\Admin\Desktop\columns grid bootstrap.html">
+    <li><font color="black">Live Well</font></a></li>
+<a href="#"><font color="black">Mental Health</font></a></li>
+  <li><a href="#"><font color="black" align="right">Pregnancy</font></a></li>
+
+
+    </div>
+  </div>
+</div>
+</nav>
+<br>
+ <div class="container-fluid">
+<h2><b>Coronavirus (COVID-19)</b></h2><br>
+<h5>Get the latest advice about COVID-19, including information about symptoms,<br> self-isolation and testing.</h5><br>
+<h3><b><a href="C:\Users\abuza\.vscode\Untitled-1.html">➜  Find out about COVID-19</a></b></h3><br>
+<h3><b><a href="C:\Users\abuza\.vscode\Covid 19 vaccination.html">➜  Find out about COVID-19 vaccination</a></b></h3><br><br>
+<h2><b>Help us help you get the treatment you need</b></h2><br>
+<h4>Because of coronavirus (COVID-19), it can be hard to know what to do if you're <br>unwell. It's important to get medical help if you think you need it.</h4><br>
+<h4>• For help from a GP – use your GP surgery's website, use an online service or<br> app, or call the surgery.</h4><br>
+<h4>• For urgent medical help – use the NHS 111 online service, or call 111 if you're unable to get help online.</h4><br>
+<h4>• For life-threatening emergencies – call 999 for an ambulance.</h4><br>
+<h4>If you're advised to go to hospital, it's important to go.</h4>
+<table class="table">
+  <thead>
+  <tr class="table-danger">
+    <th><h2><b>NHS App</b></h2></th>
+    </tr></thead><tbody>
+      <tr class="table-info">
+        <th><h4>The NHS App lets you book GP appointments, order repeat prescriptions and<br> access a range of other healthcare services.</h4></th>
+        </tr></tbody><tbody>
+          <tr class="table-info">
+            <th><h3><b><a href="C:\Users\abuza\.vscode\NHS App.html"> ➜ Find out more about the NHS App</a></b></h3></th>
+          </tr></tbody></table>
+          </div>
+</body>
+</html>

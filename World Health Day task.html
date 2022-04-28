@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+         <style>
+           a:visited{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: #f9ea1b;
+}
+div{
+  left-margin: 100px;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("https://th.bing.com/th/id/OIP.t1ebLjO9WItdgioMjSLzWAHaE8?pid=ImgDet&rs=1");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<div class="bg-img">
+  <nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+         <div class="navbar-header">
+		<a class="navbar-brand"><font color="white"><b>NHS</b></font></a>
+    <ul class="nav navbar-nav">
+    <li><a href="C:\Users\abuza\.vscode\index.html"><font color="#edfffe"><u><pre>Home     </pre></u></font></a></li>
+    <li><a href="C:\Users\abuza\.vscode\Mental Health (world health day).html"><font color="#edfffe"><pre>Mental health        </pre></font></a></li>
+<font color="black"> <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics" title="Type in a name">
+ <button type="submit" class="btn btn-default">Search</button></button></font>
+ <script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+<ul id="myUL">
+  <a href="C:\Users\Admin\Desktop\columns grid bootstrap.html">
+    <li><font color="black">Live Well</font></a></li>
+<a href="#"><font color="black">Mental Health</font></a></li>
+
+  <li><a href="#"><font color="black" align="right">Pregnancy</font></a></li>
+
+    </div>
+  </div>
+</div>
+</nav>
+<br>
+<div class="container-fluid">
+<h1> Live Well</h1>
+
+<p>The following will tell on how to live well</p>
+<br><br>
+
+<p>In order to live well, we must have good health and have a good lifestyle. Somethings we should focus on include:</p>
+<table class="table">
+  <thead>
+  <tr class="table-danger">
+<th><h4><b>Weight</b></h4></th>
+<th><h4><b>Excersise</b></h4></th>
+<th><h4><b>Sleep and tiredness</b></h4></th>
+</tr>
+</thead>
+<tbody class="table">
+<th><h4><b>Eating well</b></h4></th>
+<th><h4><b>Quiting Smoking</b></h4></th>
+<th><h4><b>Mental health</b></h4></th>
+</tr>
+</tbody>
+</table>
+<br><br>
+
+<p>If we keep our health up to date like always, we can enjoy life the way we should.</p><br>
+
+ 
+<img src="https://media.istockphoto.com/photos/silhouette-of-a-standing-happy-man-on-the-mountain-peak-picture-id579768912?k=6&m=579768912&s=170667a&w=0&h=owmQmDsMIJOot_MYyK3mDHRg16-4A5R5dK4F1FdLOlo=" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+</div>
+</body>
+</html>

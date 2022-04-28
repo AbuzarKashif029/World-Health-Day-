@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+         <style>
+           a:visited{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: #f9ea1b;
+}
+div{
+  left-margin: 100px;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("https://th.bing.com/th/id/OIP.eJTRgw4pTu6_Ng6V6E1KnwHaE8?pid=ImgDet&rs=1");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<div class="bg-img">
+  <nav class="navbar navbar-dark bg-primary">
+    <div class="container-fluid">
+         <div class="navbar-header">
+		<a class="navbar-brand"><font color="white"><b>NHS</b></font></a>
+    <ul class="nav navbar-nav">
+    <li><a href="C:\Users\abuza\.vscode\World Health Day task.html"><font color="#edfffe"><u><pre>Live Well     </pre></u></font></a></li>
+    <li><a href="C:\Users\abuza\.vscode\Mental Health (world health day).html"><font color="#edfffe"><pre>Mental health        </pre></font></a></li>
+<font color="black"> <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for topics" title="Type in a name">
+ <button type="submit" class="btn btn-default">Search</button></button></font>
+ <script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+<ul id="myUL">
+  <a href="C:\Users\Admin\Desktop\columns grid bootstrap.html">
+    <li><font color="black">Live Well</font></a></li>
+<a href="#"><font color="black">Mental Health</font></a></li>
+  <li><a href="#"><font color="black" align="right">Pregnancy</font></a></li>
+
+
+    </div>
+  </div>
+</div>
+</nav>
+<br><br>
+<h1>Coronavirus (COVID-19) vaccine</h1><br><br>
+<p><i>The coronavirus (COVID-19) vaccines are safe and effective. They give you the best protection against COVID-19.
+
+<h2>Who can get a COVID-19 vaccine</h2>
+<p>Everyone aged 5 and over can get a 1st and 2nd dose of the COVID-19 vaccine.<br>
+
+People aged 16 and over, and some children aged 12 to 15, can also get a booster dose.<br>
+
+People aged 12 and over who had a severely weakened immune system when they had their first 2 doses, will be offered a 3rd dose and a booster (4th dose).<br>
+
+People aged 75 and over, people who live in care homes for older people, and people aged 12 and over who have a weakened immune system, will be offered a spring booster.<br>
+</i></p><br><br>
+<h1>Information</h1><br>
+<h4>Find out how to get a COVID-19 vaccine</h4>
+
+<h4>Types of COVID-19 vaccine:</h4><br><br>
+The COVID-19 vaccines currently approved for use in the UK are:</p>
+<ul>
+<li>Moderna vaccine</li>
+<li>Oxford/AstraZeneca vaccine</li>
+<li>Pfizer/BioNTech vaccine</li>
+<li>Janssen vaccine (not currently available)</li>
+<li>Novavax vaccine (not currently available)</li>
+</ul><br><br>
+<h4>Which vaccine will I get?</h4><br>
+<p>You cannot usually choose which vaccine you have. If you book online, you'll only be offered appointments for vaccines that are suitable for you.
+
+Most people can have any of the COVID-19 vaccines, but some people are only offered certain vaccines.
+
+For example:
+
+if you're pregnant or under 40 you'll usually be offered appointments for the Pfizer/BioNTech or Moderna vaccines
+if you're under 18, you'll only be offered the Pfizer/BioNTech vaccine
+You should have the same vaccine for both your 1st and 2nd doses, unless you had serious side effects (such as a serious allergic reaction) after your 1st dose.</p>
+
+<p>Most people will be offered a booster dose of the Pfizer/BioNTech vaccine or Moderna vaccine.
+
+This means your booster dose may be different from the vaccine you had for your first 2 doses.
+
+How well do the COVID-19 vaccines work?
+Anyone who gets COVID-19 can become seriously ill or have long-term effects (long COVID). The COVID-19 vaccines are the best way to protect yourself and others.
+
+Research has shown the vaccines help:
+
+reduce your risk of getting seriously ill or dying from COVID-19
+reduce your risk of catching or spreading COVID-19
+protect against COVID-19 variants
+The 1st dose should give you some protection from 3 or 4 weeks after you've had it. But you need 2 doses for stronger and longer-lasting protection.
+</p>
+<p>Most people also need a booster dose to help improve the protection from the first 2 doses of the vaccine.
+
+There is a chance you might still get or spread COVID-19 even if you have a vaccine, so it's important to follow advice about how to avoid catching and spreading COVID-19.
+
+Information:
+Watch an NHS YouTube video explaining what's in the COVID-19 vaccines and how they work
+
+Side effects and safety
+The COVID-19 vaccines approved for use in the UK have met strict standards of safety, quality and effectiveness.
+
+They can cause some side effects, but not everyone gets them.
+
+Any side effects are usually mild and should not last longer than a week, such as:</p>
+<ul>
+<li>a sore arm from the injection</li>
+<li>feeling tired</li>
+<li>a headache</li>
+<li>feeling achy</li>
+<li>feeling or being sick</li>
+</ul>
+</body>
+</html>
